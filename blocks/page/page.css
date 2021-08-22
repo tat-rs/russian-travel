@@ -1,0 +1,39 @@
+.page {
+  min-width: 320px;
+  max-width: 1280px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  background-color: #2A2C2F;
+  grid-template-columns: minmax(320px, 1280px);
+  grid-template-rows: minmax(42px, 52px) 1fr minmax(52px, 310px);
+  grid-template-areas:
+  "header"
+  "main"
+  "footer";
+  box-sizing: border-box;
+  padding: 28px 48px 24px;
+  margin: 0 auto;
+}
+
+* {
+  outline-width: 1px;
+  outline-style: solid;
+  outline-color: red;
+}
+
+@media (max-width: 1024px) {
+  .page {
+
+  }
+}
+
+@media (max-width: 768px) {
+  .page {
+    padding: 28px 24px 24px;
+  }
+}
+
+@media (max-width: 320px) {
+  .page {
+    padding: 16px 16px 24px;
+  }
+}
