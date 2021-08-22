@@ -1,5 +1,6 @@
 .header__lang-links {
   max-width: 78px;
+  min-width: 62px;
   list-style-type: none;
   margin: 0;
   padding: 0;

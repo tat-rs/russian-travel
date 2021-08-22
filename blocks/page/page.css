@@ -2,6 +2,7 @@
   min-width: 320px;
   max-width: 1280px;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
+  color: #FFFFFF;
   background-color: #2A2C2F;
   grid-template-columns: minmax(320px, 1280px);
   grid-template-rows: minmax(42px, 52px) 1fr minmax(52px, 310px);
@@ -10,7 +11,7 @@
   "main"
   "footer";
   box-sizing: border-box;
-  padding: 28px 48px 24px;
+  padding: 28px 0 24px;
   margin: 0 auto;
 }
 
@@ -28,12 +29,12 @@
 
 @media (max-width: 768px) {
   .page {
-    padding: 28px 24px 24px;
+    padding: 28px 0 24px;
   }
 }
 
 @media (max-width: 320px) {
   .page {
-    padding: 16px 16px 24px;
+    padding: 16px 0 24px;
   }
 }
