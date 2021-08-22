@@ -8,3 +8,24 @@
   margin: 0 auto;
   box-sizing: border-box;
 }
+
+@media (max-width: 1024px) {
+  .header {
+    box-sizing: border-box;
+    padding: 0 48px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    box-sizing: border-box;
+    padding: 0 24px;
+  }
+}
+
+@media (max-width: 320px) {
+  .header {
+    box-sizing: border-box;
+    padding: 0 16px;
+  }
+}
