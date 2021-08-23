@@ -6,8 +6,8 @@
 }
 @media (max-width: 1024px) {
   .content {
-    box-sizing: border-box;
-    padding: 0 48px;
+    /* box-sizing: border-box;
+    padding: 0 48px; */
   }
 }
 

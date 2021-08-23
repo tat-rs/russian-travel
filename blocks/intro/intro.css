@@ -2,14 +2,13 @@
   max-width: 690px;
   min-height: 429px;
   box-sizing: border-box;
-  margin: 0 0 0 100px;
   padding-top: 82px;
 }
 
 @media (max-width: 1024px) {
   .intro {
     margin: 0;
-    padding-top: 92px;
+    padding: 92px 48px 0;
   }
 }
 
@@ -24,6 +23,6 @@
 @media (max-width: 320px) {
   .intro {
     margin: 0 16px;
-    padding-top: 64px;
+    padding: 64px 0 0;
   }
 }

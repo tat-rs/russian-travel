@@ -1,0 +1,20 @@
+.footer__content-info {
+  display: flex;
+  flex-basis: 465px;
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 698px) {
+  .footer__content-info {
+   /*  padding: 64px 118px 0 16px; */
+    flex-direction: column;
+    flex-basis: 248px;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 320px) {
+
+}

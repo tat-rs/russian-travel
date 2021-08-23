@@ -1,5 +1,5 @@
 .lead {
-  max-width: 984px;
+  max-width: 1184px;
   margin: 0 auto;
   box-sizing: border-box;
   padding-top: 66px;
@@ -8,17 +8,19 @@
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
+  position: relative;
 }
 
 @media (max-width: 1024px) {
   .lead {
-    padding-top: 48px;
+    padding: 48px 48px 0;
   }
 }
 
 @media (max-width: 768px) {
   .lead {
     width: 100%;
+    padding: 48px 0 0;
   }
 }
 
