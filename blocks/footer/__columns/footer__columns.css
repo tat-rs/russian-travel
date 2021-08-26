@@ -6,7 +6,6 @@
 
 @media (max-width: 698px) {
   .footer__columns {
-   /*  padding: 64px 118px 0 16px; */
     flex-direction: column;
     align-items: flex-start;
   }

@@ -1,20 +1,36 @@
 .places {
-  display: grid;
   max-width: 984px;
-  min-width: 288px;
-  grid-template-columns: minmax(320px, 984px);
-  grid-template-rows: 660px 584px 584px 660px 584px;
-  gap: 80px;
+  min-width: 320px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
   box-sizing: border-box;
   padding-top: 92px;
 }
 
-/* @media (max-width: 1024px) {
+@media (max-width: 1024px) {
   .places {
-    max-width: 984px;
-    min-width: 288px;
-    grid-template-columns: minmax(320px, 928px);
-    padding: 92px 48px 0;
+    margin: 0 48px;
   }
-} */
+}
+
+@media (max-width: 804px) {
+  .places {
+    margin: 0 24px;
+    padding-top: 88px;
+  }
+}
+
+@media (max-width: 598px) {
+  .places {
+    max-width: 100%;
+    padding-top: 64px;
+  }
+}
+
+@media (max-width: 360px) {
+  .places {
+      min-width: 320px;
+      margin: 0 auto;
+  }
+}

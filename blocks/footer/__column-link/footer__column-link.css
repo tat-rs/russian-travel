@@ -3,12 +3,17 @@
   max-width: 158px;
   min-height: 18px;
   text-decoration: none;
-  font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 18px;
-  color: #FFFFFF
+  color: #FFFFFF;
+  cursor: url('../../../images/Pointer.svg') , pointer;
+  transition: .3s;
+}
+
+.footer__column-link:hover {
+  opacity: .8;
 }
 
 @media (max-width: 698px) {

@@ -1,8 +1,8 @@
 .lead__subtitle {
   max-width: 640px;
+  min-width: 288px;
   min-height: 40px;
   margin: 32px auto 0;
-  font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 30px;
@@ -10,16 +10,17 @@
   text-align: center;
 }
 
-@media (max-width: 1024px) {
-
-}
-
-@media (max-width: 768px) {
-
-}
-
-@media (max-width: 320px) {
+@media (max-width: 712px) {
   .lead__subtitle {
+    font-size: 20px;
+    line-height: 26px;
+    margin-top: 22px;
+  }
+}
+
+@media (max-width: 364px) {
+  .lead__subtitle {
+    max-width: 288px;
     margin-top: 16px;
     font-size: 16px;
     line-height: 20px;

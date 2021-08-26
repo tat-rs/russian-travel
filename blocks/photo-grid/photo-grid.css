@@ -7,14 +7,15 @@
 
 @media (max-width: 1024px) {
   .photo-grid {
-    padding: 92px 48px 0;
+    max-width: 928px;
+    margin: 0 auto;
   }
 }
 
 @media (max-width: 768px) {
   .photo-grid {
-    padding-top: 88px;
     margin: 0 24px;
+    padding-top: 88px;
   }
 }
 

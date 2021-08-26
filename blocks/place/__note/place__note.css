@@ -1,4 +1,10 @@
 .place__note {
-  max-width: 484px;
-  min-height: 440px;
+  min-width: 288px;
+}
+
+@media (max-width: 320px) {
+  .place__note {
+      width: 288px;
+      margin: 0 auto;
+  }
 }

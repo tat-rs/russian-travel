@@ -2,13 +2,14 @@
   max-width: 690px;
   min-height: 429px;
   box-sizing: border-box;
+  margin-left: 100px;
   padding-top: 82px;
 }
 
 @media (max-width: 1024px) {
   .intro {
-    margin: 0;
-    padding: 92px 48px 0;
+    margin: 0 0 0 48px;
+    padding-top: 92px;
   }
 }
 
@@ -20,7 +21,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 398px) {
   .intro {
     margin: 0 16px;
     padding: 64px 0 0;

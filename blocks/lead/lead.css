@@ -1,29 +1,14 @@
 .lead {
-  max-width: 1184px;
+  max-width: 984px;
   margin: 0 auto;
   box-sizing: border-box;
   padding-top: 66px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
   position: relative;
 }
 
 @media (max-width: 1024px) {
   .lead {
-    padding: 48px 48px 0;
+    max-width: 928px;
+    padding-top: 48px;
   }
-}
-
-@media (max-width: 768px) {
-  .lead {
-    width: 100%;
-    padding: 48px 0 0;
-  }
-}
-
-@media (max-width: 320px) {
-
 }

@@ -1,0 +1,27 @@
+.place__container {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 1024px) {
+  .place__container {
+    max-width: 440px;
+  }
+}
+
+@media (max-width: 768px) {
+  .place__container {
+    max-width: 340px;
+  }
+}
+@media (max-width: 712px) {
+  .place__container {
+    max-width: 320px;
+  }
+}
+
+@media (max-width: 320px) {
+  .place__container {
+    justify-self: center;
+  }
+}

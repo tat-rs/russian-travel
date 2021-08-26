@@ -1,8 +1,10 @@
 .footer {
+  grid-area: footer;
   margin: 0 auto;
   box-sizing: border-box;
   padding: 92px 0 0;
   max-width: 1184px;
+  min-width: 186px;
   min-height: 18px;
 }
 
@@ -18,3 +20,8 @@
   }
 }
 
+@media (max-width: 320px) {
+  .footer {
+    padding: 64px 0 0 16px;
+  }
+}

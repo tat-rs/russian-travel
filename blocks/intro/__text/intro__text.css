@@ -3,21 +3,8 @@
   max-width: 100%;
   min-height: 208px;
   box-sizing: border-box;
-  font-family: Inter;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 163%;
-}
-
-@media (max-width: 1024px) {
-
-}
-
-@media (max-width: 768px) {
-
-}
-
-@media (max-width: 320px) {
-
 }
