@@ -9,4 +9,4 @@
 
 Сайт полностью адаптируется под разные размеры устройств. Это достигается засчет того, что сетка сайта написана с помощью Grid layout, а блоки сверстаны как на grid, так и на flexbox, совместно с медиазапросами это и делает сайт гибким и адаптивным.
 
-* [Ссылка на сайт в GitHub Pages](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
+* [Ссылка на сайт в GitHub Pages](https://tat-rs.github.io/russian-travel/)
