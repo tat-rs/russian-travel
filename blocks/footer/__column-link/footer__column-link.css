@@ -8,7 +8,7 @@
   font-size: 16px;
   line-height: 18px;
   color: #FFFFFF;
-  cursor: url('../../../images/pointer.svg'), pointer;
+  cursor: url('../../../images/cursor-pointer.svg'), pointer;
   transition: .3s;
 }
 
