@@ -2,9 +2,9 @@
   min-width: 288px;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 598px) {
   .place__note {
-      width: 288px;
+      max-width: calc(100% - 32px);
       margin: 0 auto;
   }
 }

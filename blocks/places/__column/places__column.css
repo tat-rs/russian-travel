@@ -1,3 +1,19 @@
 .places__column {
-  margin-bottom: 80px;
+  margin: 0 auto 80px;
+}
+
+.places__column:last-of-type {
+  margin: 0;
+}
+
+@media (max-width: 804px) {
+  .places__column {
+    margin: 0 auto 73px;
+  }
+}
+
+@media (max-width: 598px) {
+  .places__column {
+    margin: 0 auto 50px;
+  }
 }

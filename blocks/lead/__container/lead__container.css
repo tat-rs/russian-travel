@@ -11,13 +11,13 @@
   }
 }
 
-@media (max-width: 712px) {
+@media (max-width: 730px) {
   .lead__container {
     padding-top: 48px;
   }
 }
 
-@media (max-width: 364px) {
+@media (max-width: 452px) {
   .lead__container {
     padding-top: 40px;
   }

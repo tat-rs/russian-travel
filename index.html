@@ -9,15 +9,15 @@
 <body>
   <div class="page">
     <header class="header">
-        <img class="header__logo" src="./images/header__logo.svg" alt="Логотип">
-      <ul class="header__lang-links">
-        <li>
-          <a class="header__lang-link header__lang-link_margin_right header__lang-link_active" href="#">Ru</a>
-        </li>
-        <li>
-          <a class="header__lang-link" href="#">En</a>
-        </li>
-      </ul>
+        <img class="header__logo" src="./images/header__logo.svg" alt="Логотип.">
+        <ul class="header__lang-links">
+          <li class="header__item">
+            <a class="header__lang-link header__lang-link_active" href="#">Ru</a>
+          </li>
+          <li class="header__item">
+            <a class="header__lang-link" href="#">En</a>
+          </li>
+        </ul>
     </header>
 
     <main class="content">
@@ -25,60 +25,62 @@
         <h1 class="lead__title">Путешествия по&nbsp;России</h1>
         <p class="lead__subtitle">Настоящая страна не&nbsp;в&nbsp;выпусках новостей, а&nbsp;здесь.</p>
         <figure class="lead__container">
-          <img class="lead__image" src="./images/lead-polka.jpg" alt="Схема путешествия по России">
+          <img class="lead__image" src="./images/lead-polka.jpg" alt="Схема путешествия по России.">
           <figcaption class="lead__caption">Ваша полка&nbsp;&mdash; верхняя</figcaption>
         </figure>
       </section>
 
       <section class="intro">
-        <h2 class="intro__title">Чего мы&nbsp;там не&nbsp;видели?</h2>
-        <p class="intro__text">По&nbsp;опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но&nbsp;только&nbsp;36% планируют провести отпуск в&nbsp;родной стране. Мол, чего мы&nbsp;тут, дома, не&nbsp;видели? На&nbsp;самом деле, Россия&nbsp;&mdash; это целая вселенная с&nbsp;ласковым морем юга, густыми лесами Саян и&nbsp;суровыми льдами плато Путорана. А&nbsp;ещё увидеть все эти красоты можно без миллионов на&nbsp;счету, загранпаспорта и&nbsp;многочасовых перелетов. Как, например, Вера Башмакова&nbsp;&mdash; смелая молодая мама, которая взяла в&nbsp;охапку троих детей, усадила их&nbsp;в&nbsp;свою &laquo;Ладу&raquo; и&nbsp;проехала 20&nbsp;тысяч километров по&nbsp;родной стране. Мы&nbsp;выбрали и&nbsp;описали некоторые интересные места, достойные вашего отпуска.</p>
-        <ul class="intro__list">
-          <li>Часовых поясов 11</li>
-          <li>Объектов природного наследия ЮНЕСКО 12</li>
-          <li>Объектов культурного наследия ЮНЕСКО 16</li>
-          <li>Природных заповедников 105</li>
-          <li>Аэропортов 241</li>
-        </ul>
+        <div class="intro__container">
+          <h2 class="intro__title">Чего мы&nbsp;там не&nbsp;видели?</h2>
+          <p class="intro__text">По&nbsp;опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но&nbsp;только&nbsp;36% планируют провести отпуск в&nbsp;родной стране. Мол, чего мы&nbsp;тут, дома, не&nbsp;видели? На&nbsp;самом деле, Россия&nbsp;&mdash; это целая вселенная с&nbsp;ласковым морем юга, густыми лесами Саян и&nbsp;суровыми льдами плато Путорана. А&nbsp;ещё увидеть все эти красоты можно без миллионов на&nbsp;счету, загранпаспорта и&nbsp;многочасовых перелетов. Как, например, Вера Башмакова&nbsp;&mdash; смелая молодая мама, которая взяла в&nbsp;охапку троих детей, усадила их&nbsp;в&nbsp;свою &laquo;Ладу&raquo; и&nbsp;проехала 20&nbsp;тысяч километров по&nbsp;родной стране. Мы&nbsp;выбрали и&nbsp;описали некоторые интересные места, достойные вашего отпуска.</p>
+          <ul class="intro__list">
+            <li>Часовых поясов <span class="intro__list-number">11</span></li>
+            <li>Объектов природного наследия ЮНЕСКО <span class="intro__list-number">12</span></li>
+            <li>Объектов культурного наследия ЮНЕСКО <span class="intro__list-number">16</span></li>
+            <li>Природных заповедников <span class="intro__list-number">105</span></li>
+            <li>Аэропортов <span class="intro__list-number">241</span></li>
+          </ul>
+        </div>
       </section>
 
       <section class="photo-grid">
         <ul class="photo-grid__items">
           <li class="photo-grid__item">
-            <img class="photo-grid__image" src="./images/photo-grid-train.jpg" alt="Вид из окна поезда">
+            <img class="photo-grid__image" src="./images/photo-grid-train.jpg" alt="Вид из окна поезда на реку.">
           </li>
           <li class="photo-grid__item">
-            <img class="photo-grid__image" src="./images/photo-grid-atharva-tulsi.jpg" alt="Талышские горы">
+            <img class="photo-grid__image" src="./images/photo-grid-atharva-tulsi.jpg" alt="Вид сверху на снежные Талышские горы.">
           </li>
           <li class="photo-grid__item">
-            <img class="photo-grid__image" src="./images/photo-grid-tuman.jpg" alt="Туман">
+            <img class="photo-grid__image" src="./images/photo-grid-tuman.jpg" alt="Овчарка на стоге сена в туманом поле.">
           </li>
           <li class="photo-grid__item">
-            <img class="photo-grid__image" src="./images/photo-grid-sochi.jpg" alt="Туман в горах">
+            <img class="photo-grid__image" src="./images/photo-grid-sochi.jpg" alt="Покрытый туманом лес в горах.">
           </li>
           <li class="photo-grid__item">
-            <img class="photo-grid__image" src="./images/photo-grid-arisa.jpg" alt="Машина на замершем озере">
+            <img class="photo-grid__image" src="./images/photo-grid-arisa.jpg" alt="Крупный план на колесо машины на замершем озере.">
           </li>
           <li class="photo-grid__item">
-            <img class="photo-grid__image" src="./images/photo-grid-baikal.jpg" alt="Вид на Байкал">
+            <img class="photo-grid__image" src="./images/photo-grid-baikal.jpg" alt="Песчаный берег Байкала на фоне гор.">
           </li>
           <li class="photo-grid__item">
-            <img class="photo-grid__image" src="./images/photo-grid-elbrus.jpg" alt="Гора Эльбрус">
+            <img class="photo-grid__image" src="./images/photo-grid-elbrus.jpg" alt="Гора Эльбрус, покрытая снегом.">
           </li>
           <li class="photo-grid__item">
-            <img class="photo-grid__image" src="./images/photo-grid-kondratiev.jpg" alt="Пешеход">
+            <img class="photo-grid__image" src="./images/photo-grid-kondratiev.jpg" alt="Дорожный нак - пешеход на фоне волноломов.">
           </li>
           <li class="photo-grid__item">
-            <img class="photo-grid__image" src="./images/photo-grid-kamchatka-1.jpg" alt="Камчатка">
+            <img class="photo-grid__image" src="./images/photo-grid-kamchatka-1.jpg" alt="Вид сверху на вулкан Мутновский на Камчатке.">
           </li>
           <li class="photo-grid__item">
-            <img class="photo-grid__image" src="./images/photo-grid-kamchatka-2.jpg" alt="Камчатка">
+            <img class="photo-grid__image" src="./images/photo-grid-kamchatka-2.jpg" alt="Толбачинский вулканический массив на востоке Камчатки.">
           </li>
           <li class="photo-grid__item">
-            <img class="photo-grid__image" src="./images/photo-grid-baikal-2.jpg" alt="Байкал">
+            <img class="photo-grid__image" src="./images/photo-grid-baikal-2.jpg" alt="Скалы у озера Байкал.">
           </li>
           <li class="photo-grid__item">
-            <img class="photo-grid__image" src="./images/photo-grid-ergaki.jpg" alt="Природный парк - Егарки">
+            <img class="photo-grid__image" src="./images/photo-grid-ergaki.jpg" alt="Пик горы Параболы в парке Егарки среди тумана.">
           </li>
         </ul>
       </section>
@@ -91,7 +93,7 @@
             <a class="place__link" href="http://park-kosa.ru" target="_blank" rel="noopener">park-kosa.ru</a>
           </div>
           <div class="place__container">
-            <img class="place__image" src="./images/place-kosa.jpg" alt="Куршская коса">
+            <img class="place__image" src="./images/place-kosa.jpg" alt="Берег Куршской косы.">
           </div>
           <div class="place__note">
             <p class="place__paragraph">Здесь, посреди лесов и&nbsp;песчаных дюн, вы&nbsp;сможете увидеть два водных горизонта&nbsp;&mdash; спокойного Куршского залива с&nbsp;одной стороны и&nbsp;подёрнутого рябью волн Балтийского моря с&nbsp;другой. Уникальная природная зона на&nbsp;краю российского анклава.</p>
@@ -105,7 +107,7 @@
             <a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank" rel="noopener">National Geographic</a>
           </div>
           <div class="place__container">
-            <img class="place__image" src="./images/place-kolsky.jpg" alt="Баренцево море">
+            <img class="place__image" src="./images/place-kolsky.jpg" alt="Снежные скалы.">
           </div>
           <div class="place__note">
             <p class="place__paragraph">Почти весь полуостров находится за&nbsp;Полярным кругом. Саамская тундра, от&nbsp;которой на&nbsp;юг&nbsp;&mdash; тайга, а&nbsp;на&nbsp;север&nbsp;&mdash; Ледовитый океан, прикидывающийся Баренцевым морем.</p>
@@ -119,7 +121,7 @@
             <a class="place__link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank" rel="noopener">Facebook</a>
           </div>
           <div class="place__container">
-            <img class="place__image" src="./images/place-altai.jpg" alt="Алтайский лес">
+            <img class="place__image" src="./images/place-altai.jpg" alt="Ноутбук на фоне Алтайского леса.">
           </div>
           <div class="place__note">
             <p class="place__paragraph">Алтай&nbsp;&mdash; одно из&nbsp;красивейших мест в&nbsp;России.
@@ -134,7 +136,7 @@
             <a class="place__link" href="https://vk.com/baikalmile" target="_blank" rel="noopener">https://vk.com/baikalmile</a>
           </div>
           <div class="place__container">
-            <img class="place__image" src="./images/place-winter-baikal.jpg" alt="Зимний Байкал">
+            <img class="place__image" src="./images/place-winter-baikal.jpg" alt="Крупный план на замерзшую воду Байкала.">
           </div>
           <div class="place__note">
             <p class="place__paragraph">Всем известен Байкал как крупнейшее озеро в&nbsp;мире. Многие также знают, что это самый большой источник пресной воды и&nbsp;одно из&nbsp;красивейших мест в&nbsp;России.</p>
@@ -148,7 +150,7 @@
             <a class="place__link" href="http://vodlozero.ru" target="_blank" rel="noopener">http://vodlozero.ru</a>
           </div>
           <div class="place__container">
-            <img class="place__image" src="./images/place-karelia.jpg" alt="Озеро Карелии">
+            <img class="place__image" src="./images/place-karelia.jpg" alt="Озеро Карелии посреди густого леса.">
           </div>
           <div class="place__note">
             <p class="place__paragraph">Сибирь заканчивается не&nbsp;на&nbsp;Урале, а&nbsp;в&nbsp;Карелии: образующая тайгу сибирская лиственница не&nbsp;растёт западнее Водлозера. Зато здесь она вымахивает на&nbsp;30&nbsp;метров&nbsp;&mdash; леса карельских национальных парков из-за непроходимых болот никогда не&nbsp;знали топора. Некоторым соснам уже больше чем полтысячелетия. Прикоснитесь к&nbsp;живому существу, видевшему солнце раньше, чем увидал его Иван Грозный. В&nbsp;девственном лесу на&nbsp;сотню километров не&nbsp;встретишь тропы. А&nbsp;на&nbsp;редких тропинках деревья в&nbsp;паре метров от&nbsp;земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>

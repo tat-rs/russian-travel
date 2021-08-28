@@ -3,25 +3,25 @@
   min-height: 671px;
   box-sizing: border-box;
   padding-top: 92px;
+  margin: 0 auto;
 }
 
 @media (max-width: 1024px) {
   .photo-grid {
-    max-width: 928px;
-    margin: 0 auto;
+    max-width: calc(100% - 96px);
   }
 }
 
 @media (max-width: 768px) {
   .photo-grid {
-    margin: 0 24px;
+    max-width: calc(100% - 48px);
     padding-top: 88px;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 398px) {
   .photo-grid {
     padding: 64px 0 0;
-    margin: 0 16px;
+    max-width: calc(100% - 32px);
   }
 }

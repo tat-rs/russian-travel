@@ -6,7 +6,7 @@
   text-decoration: none;
   box-sizing: border-box;
   padding: 245px 0;
-  cursor: url('../../../images/Pointer.svg'), pointer;
+  cursor: url('../../../images/pointer.svg'), pointer;
   position: relative;
   z-index: 0;
 }

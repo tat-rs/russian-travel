@@ -10,16 +10,17 @@
   text-align: center;
 }
 
-@media (max-width: 712px) {
+@media (max-width: 768px) {
   .lead__title {
-    font-size: 50px;
-    line-height: 54px;
+    max-width: calc(100% - 48px);
+    font-size: 56px;
+    line-height: 60px;
   }
 }
 
-@media (max-width: 364px) {
+@media (max-width: 452px) {
   .lead__title {
-    max-width: 288px;
+    max-width: calc(100% - 32px);
     font-size: 40px;
     line-height: 44px;
   }

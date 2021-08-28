@@ -1,12 +1,17 @@
 .cover {
   max-width: 1184px;
-  box-sizing: border-box;
-  padding-top: 92px;
+  margin: 92px auto 0;
   color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+  .cover {
+    margin-top: 90px;
+  }
 }
 
 @media (max-width: 510px) {
   .cover {
-    padding-top: 66px;
+    margin-top: 66px;
   }
 }
